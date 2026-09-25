@@ -95,23 +95,15 @@ que pour le split train/val, avec `cudnn.deterministic = True`.
 
 ## Résultats
 
-A compléter après exécution sur Colab (voir le tableau récapitulatif produit par la section
-7 du notebook, et les courbes de la section 5) :_
+
 
 | Expérience | Test loss | Test accuracy | Test précision | Test rappel |
 |---|---|---|---|---|
 | CNN from scratch | | | | |
 | Transfer learning (ResNet18) | | | | |
 
-**Analyse (2-3 paragraphes) :** _à rédiger après avoir observé les courbes et le tableau —
-comparer la vitesse de convergence, les métriques finales, et relier ces résultats au nombre
-de paramètres entraînables de chaque modèle._
 
 ## Limites & pistes d'amélioration
-
-_À compléter :_ temps de calcul, taille du jeu de validation, sensibilité au learning rate,
-fine-tuning de couches supplémentaires, augmentation plus poussée, autres backbones
-(MobileNet, EfficientNet), etc.
 
 ## Remise
 
